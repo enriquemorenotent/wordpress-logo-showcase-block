@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-emt-logo-showcase {
+	padding: 10px;
+	border: 1px solid #444;
+
+	.wrapper {
+		width: 100%;
+	}
+
+	img {
+		object-fit: cover;
+		width: 100%;
+	}
+
+	.logo {
+		display: none;
+		transition: opacity 1s;
+		opacity: 0;
+	}
+
+	// center vertically and horizontally
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

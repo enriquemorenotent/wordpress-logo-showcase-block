@@ -1,0 +1,33 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-emt-logo-showcase {
+  padding: 20px;
+  box-shadow: 0 0 10px 0px #888;
+  border-radius: 20px;
+}
+.wp-block-emt-logo-showcase .block-title {
+  margin: 0 0 20px;
+  font-size: 40px !important;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.wp-block-emt-logo-showcase .preview-title {
+  margin: 0;
+  text-align: center;
+  font-size: 22px !important;
+}
+.wp-block-emt-logo-showcase .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+/*# sourceMappingURL=index.css.map*/
